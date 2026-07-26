@@ -1,0 +1,35 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of DraftWise hosts
+notes: >-
+  No valid RFC 9116 security.txt or machine-readable discovery document was found. The
+  200 at security.draftwise.com/.well-known/security.txt is the Vanta Trust Center SPA
+  (HTML), not a real security.txt, so no SecurityTxt artifact/pointer is emitted. All
+  other well-known paths 404 or are unreachable. Absence recorded as valid data.
+hosts:
+- host: https://www.draftwise.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://security.draftwise.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    valid: false
+    note: Vanta Trust Center SPA HTML, not an RFC 9116 security.txt
+- host: https://api.draftwise.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+    note: host not publicly resolvable / no response
+  - path: /.well-known/openid-configuration
+    status: 0
+- host: https://app.draftwise.com
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 0
+    note: host not publicly resolvable / no response

@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.draftwise.com/security
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: SOC 2 Type II certification stated on draftwise.com homepage and /security
+- id: iso-27001
+  conforms: true
+  evidence: ISO 27001 certification stated on draftwise.com homepage
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliance stated on draftwise.com homepage
+- id: cyber-essentials-plus
+  conforms: true
+  evidence: UK Cyber Essentials Plus stated on draftwise.com/security
+- id: hipaa
+  conforms: false
+- id: fedramp
+  conforms: false
+- id: pci-dss
+  conforms: false

@@ -28,7 +28,7 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 image: https://cdn.prod.website-files.com/6882856daf9021fbbe98f174/6882beae3bbbd115a0c29b3a_dw_logo-nav.svg

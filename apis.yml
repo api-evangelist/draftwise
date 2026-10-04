@@ -51,7 +51,7 @@ tags:
 - Contract Management
 - Contract Drafting
 - Artificial Intelligence
-- Document-Management
+- Document Management
 - Legal AI
 tags_raw:
 - Company
@@ -63,6 +63,7 @@ tags_raw:
 - Artificial Intelligence
 - Document Management
 - Legal AI
+- Document-Management
 apis: []
 maintainers:
 - FN: Kin Lane
